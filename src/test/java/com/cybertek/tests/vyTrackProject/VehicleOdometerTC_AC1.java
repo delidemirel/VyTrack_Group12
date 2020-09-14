@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class VehicleOdometerTC_AC1 {
 
     public static void main(String[] args) throws InterruptedException {
-        //  ArrayList<String> unauthorizedUsers = new ArrayList<String>();
         String[][] unauthorizedUserInfo = {{"storemanager212", "UserUser123"}, {"salesmanager262", "UserUser123"}};
         System.setProperty("webdriver.chrome.driver", "chromedriver");
         WebDriver driver = new ChromeDriver();
@@ -38,7 +37,6 @@ public class VehicleOdometerTC_AC1 {
                     System.out.println("Vehicle Odometer Page Unauthorized User " + unauthorizedUserInfo[i][0] + " Access is Denied : Success");
                 } else {
                     System.out.println("Vehicle Odometer Page Unauthorized User " + unauthorizedUserInfo[i][0] + " Access is Granted : Failed");
-//                    driver.close();
                     continue;
 
                 }
@@ -50,7 +48,6 @@ public class VehicleOdometerTC_AC1 {
                 Thread.sleep(2000);
                 driver.findElement(By.linkText("Logout")).click();
                 Thread.sleep(3000);
-//                driver.close();
 
             }
 
