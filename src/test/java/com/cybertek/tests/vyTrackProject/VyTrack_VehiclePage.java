@@ -20,9 +20,9 @@ public class VyTrack_VehiclePage {
 
             driver.findElement(By.linkText("Vehicles")).click();
             if (driver.getCurrentUrl().equalsIgnoreCase("https://qa2.vytrack.com/entity/Extend_Entity_Carreservation")) {
-                System.out.println("Vehicle module : Success");
+                System.out.println("Vehicles module : Success");
             } else {
-                System.out.println("Vehicle module: Failed");
+                System.out.println("Vehicles module: Failed");
             }
         }
         driver.close();
