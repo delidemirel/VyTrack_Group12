@@ -1,2 +1,4 @@
 # Project exclude paths
 /target/
+/src/test/java/com/cybertek/tests/oxfordBookProject/
+/src/test/java/com/cybertek/tests/gurhanClass/
