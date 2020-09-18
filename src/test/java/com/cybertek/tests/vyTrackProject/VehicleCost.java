@@ -32,7 +32,7 @@ public class VehicleCost {
 
                 }
                 driver.findElement(By.id("column-c115")).click();
-                System.out.println("close..");
+     //           System.out.println("close..");
                 driver.findElement(By.className("column-manager")).click();
 
                 driver.findElement(By.className("reset-action")).click();
@@ -41,7 +41,7 @@ public class VehicleCost {
                 System.out.println("Vehicles Costs module: Failed");
             }
         }
-        //   driver.close();
+        driver.close();
     }
 }
 
