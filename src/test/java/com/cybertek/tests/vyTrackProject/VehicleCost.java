@@ -41,7 +41,7 @@ public class VehicleCost {
                 System.out.println("Vehicles Costs module: Failed");
             }
         }
-        driver.close();
+      //  driver.close();
     }
 }
 
